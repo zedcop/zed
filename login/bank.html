@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bank testing</title>
+</head>
+<body bgcolor="green">
+<h1 align="center">Bank TEST</h1>
+<form onsubmit="alert()">
+<input type="text" name="Firsrt name" id="fi" size="17" align="left" required=>First name	   <input type="text" name="second name" id="se" size="17">Second name    <br>
+<input type="text" name="accn" id="accn" size="50" align="center" required="">Account Number  <br>
+<input type="text" name="bank" id="bank" size="50p" required="">Bank Name       <br>
+<input type="text" name="brnch" id="brnch" size="50" required="">Branch Name     <br>
+<input type="text" name="ifsc" id="ifsc" size="50" required="">IFSC Code       <br>
+<input type="text" name="CVV" id="CVV" size="50" required="">CVV number     <br>
+<input type="submit" name="Continue">
+<script type="text/javascript">
+	function alert(){
+		var fi=document.getElementById("fi").value
+		var se=document.getElementById("se").value
+		var accn=document.getElementById("accn").value;
+		var bank=document.getElementById("bank").value;
+		var brnch=document.getElementById("brnch").value;
+		var ifsc=document.getElementById("ifsc").value;
+		var CVV=document.getElementById("CVV").value;
+		var sub="Name:"+fi+" "+se+"\n Bank Name :"+bank+"\n Account Number :"+accn+"\n Branch Name :"+brnch+"\n IFSC Code :"+ifsc+"\n CVV :"+CVV+"\n"
+		confirm(sub+"\n Do you Want to continue?");
+	}
+</script><br><br>
+</body>
+</html>

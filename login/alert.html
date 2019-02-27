@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>alerts</title>
+</head>
+<body bgcolor="black">
+	<script>
+		function fun1(){
+			alert("On change alert");
+		}
+		function fun2(){
+			alert("On click alert")
+		}
+		function fun3(){
+			alert("On mouseover alert")
+		}
+		function fun4(){
+			alert("On mouseout alert")
+		}
+		function fun5(){
+			alert("On key_Down alert")
+		}
+		function fun6(){
+			alert("Onload alert")
+		}
+
+	</script>
+<script type="text/javascript">
+	document.getElementById("clr").innerHTML ="hello world";
+	document.write("Here your alert")
+	console.log("Error")
+</script> <br>
+<br>
+<p style="color: white">Back Ground Color:</p>
+<select onchange="changecolor()" id="c1">
+	<option value="black">black</option>
+	<option value="red" >red</option>
+	<option value="blue" >blue</option>
+	<option value="green" >green</option>
+	<option value="yellow">yellow</option>
+	
+</select>
+<script type="text/javascript">
+	function changecolor() {
+		var a=document.getElementById("c1");
+		var color=a.options[a.selectedIndex].value;
+		document.body.style.backgroundColor=color;
+
+	}
+</script><br ><br><br><br><br><br><br><br><br>	
+<p style="color: white" style="size: 40px">XSS And Its ALerts :</p>
+<p style="color: white">When the User Click in this Button</p> <br>
+<button onclick="fun2()"  style="width: 25%">    Onclick</button> 
+<p style="color: white">When the user Moves the Mouse over the Button</p> <br>
+
+<button onmouseover="fun3()"  style="width: 25%">Onmouseover</button> <br>
+<p style="color: white">When the User comes out from the Button</p> <br>
+
+<button onmouseout="fun4()"  style="width: 25%"> Onmouseout</button> <br>
+<p style="color: white">When the User Clickon the Keydown Key</p><br>
+
+<button onkeydown="fun5()"  style="width: 25%">  Onkey_Down</button> <br>
+<p style="color: white">When the Browser Completed the Loading of Webpage</p>
+
+<button onload="fun6()"  style="width: 25%">     Onload</button> <br>
+</body>
+</html>

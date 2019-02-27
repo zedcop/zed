@@ -1,0 +1,113 @@
+h1{
+	background-color: lightblue;
+	font-size:25px;
+	padding: 0px;
+	border: 0px;
+	color: black;
+	margin-top: 0%;
+	border-top: 0%;
+	padding-top: 1%;
+	margin: 0;
+}
+ul{
+	background-color: orange;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	padding: 0px;
+	color: black;
+}
+.contain{
+	position: relative;
+	padding: 0px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+}
+.contain1{
+
+	position: absolute;
+	font-size: 60px;
+	left: 5%;
+	top: 20%;
+	padding: 0;
+	margin: 0;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+}
+.container{
+	padding: 0px;
+	margin: 0px;
+	border-top-width: 0px;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+.center{
+	position: absolute;
+	font-size: 30px;
+	left: 500px;
+	top: 90%;
+	padding: 0;
+	margin: 0;
+	right: 500px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+
+	color: white;
+}
+.left{
+position: absolute;
+	font-size: 30px;
+	left: 0px;
+	padding: 0;
+	margin: 0;
+	top: 90%;
+	right: 950px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+	color: white;
+}
+.right{
+	position: absolute;
+	font-size: 30px;
+	left: 1000px;
+	top: 90%;
+	padding: 0;
+	margin: 0;
+	right: 0px;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.5);
+	color: white;
+}
+li {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	display: inline;
+	margin: 0;
+	padding: 120px;
+	font-size: 25px;
+	border: 0px;
+	color: white;
+}
+
+p{
+	text-align: center;
+	font-size: 15px;
+	color: black;
+}
+li a{
+	color: black;
+	padding: 6px;
+	text-decoration: none;
+}
+li a:hover{
+	color: white;
+	background-color: green;
+}
+a{
+	color: black;
+}
